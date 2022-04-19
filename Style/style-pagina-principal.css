@@ -363,7 +363,7 @@ ul > li{
     align-content: center;
     min-width: 450px;
     max-width: 1300px;
-    height: 237px;
+    height: 600px;
     background-color: white;
     margin: 0 auto;
     padding: 20px;
@@ -391,15 +391,18 @@ ul > li{
     align-items: center;
     justify-content: space-between;
     border-top: 4px dashed #FFB7C3;
-    width: 100%;
+    max-width: 100%;
+    min-width: 490px;
     height: 150px;
     background-color: #BCF4F5;
     text-align: center;
 }
 
 .gatinho-footer-left{
-    width: 500px;
-    height: 80px;
+    max-width: 500px;
+    min-width: 130px;
+    max-height: 80px;
+    min-height: 30px;
 }
 
 .footer-pagina-principal > h1{
@@ -409,8 +412,10 @@ ul > li{
 }
 
 .gatinho-footer-right{
-    width: 500px;
-    height: 80px;
+    max-width: 500px;
+    min-width: 130px;
+    max-height: 80px;
+    min-height: 30px;
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
