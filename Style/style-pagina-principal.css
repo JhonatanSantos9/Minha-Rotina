@@ -248,8 +248,7 @@ ul > li{
 .divmusicas{
     display: flex;
     flex-direction: column;
-    max-width: 1300px;
-    min-width: 440px;
+    width: 99%;
     max-height: 900px;
     min-height: 615px;
     background-color: rgba(255, 195, 155, 0.774);
