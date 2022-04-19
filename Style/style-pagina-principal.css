@@ -361,20 +361,27 @@ ul > li{
     display: flex;
     flex-direction: column;
     align-content: center;
-    min-width: 350px;
-    max-width: 1250px;
+    min-width: 450px;
+    max-width: 1300px;
+    height: 600px;
     background-color: white;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
+    padding: 20px;
     box-shadow: 0px 20px 10px rgba(0, 0, 0, 0.384);
 }
 
-.mlem{
-    max-width: 1000px;
+.div-mlam{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 600px;
     min-width: 450px;
-    max-height: 600px;
-    min-height: 300px;
-    border: 6px dashed #FFB7C3;
-    margin: 35px;
+    max-width: 1300px;
+}
+
+.div-mlam > iframe{
+    width: 100%;
+    height: 75%;
 }
 
 .footer-pagina-principal{
