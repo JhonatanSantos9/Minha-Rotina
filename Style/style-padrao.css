@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,579;1,579&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #D3FAC7;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-width: 490px;
+    min-height: 150px;
+    max-height: 230px;
+    background-color: #BCF4F5;
+    border-bottom: 6px solid #FFB7C3;
+}
+
+header > h1{
+    font-family: 'Dancing Script';
+    font-size: 3em;
+    color: white;
+}
+
+.botao-header{
+    min-width: 100px;
+}
+
+.gatinho-no-pc{
+    width: 90px;
+    padding: 5px;
+    margin-left: 25px;
+}
+
+nav{
+    width: 100%;
+    min-height: 150px;
+    max-height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 4px dashed #FFB7C3;
+    margin-top: 3px;
+    
+}
+
+.espaco-lado-esquerdo-nav{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dias-da-semana{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 50px;
+    max-height: 150px;
+    width: 550px;
+    text-align: center;
+}
+
+.flex-grow1{
+    flex-grow: 1;
+}
+.final-de-semana, .dias-uteis{
+    padding: 8px;
+    margin: 5px 5px;
+    background-color: white;
+    text-decoration: none;
+}
+
+.dias-uteis:hover{
+    border: 3px solid #FFB7C3;
+    text-decoration: underline;
+    color: #8fceeb;
+    font-weight: 900;
+}
+
+.final-de-semana:hover{
+    border: 3px solid #14ad52;
+    text-decoration: underline;
+    color: #8fceeb;
+    font-weight: 900;
+}
+
+.final-de-semana:active{
+    background-color: rgb(255, 191, 139);
+    color: #fc40bd;
+}
+
+.dias-uteis:active{
+    background-color: rgb(255, 191, 139);
+    color: #fc40bd;
+}
+
+.dias-uteis{
+    color: #f5b3e7;
+    font-weight: 700;
+}
+
+.final-de-semana{
+    color: #f5b3e7;
+    font-weight: 700;
+}
+
+.main-dias-da-semana{
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto 0 auto;
+    height: 1500px;
+    min-width: 350px;
+    max-width: 1250px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.384);
+}
+
+
+
+
+
+

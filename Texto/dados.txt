@@ -1,0 +1,70 @@
+
+
+
+.Hora de acordar{
+    7hrs da manhã;
+}
+
+.Hora de estar na cama{
+    22:30 da noite;
+    No máximo: 23:00;
+}
+
+.Assuntos que tenho que estudar{
+    HTML & CSS;
+    JavaScript;
+    Inglês;
+}
+
+.Hobbies{
+    Jogar no PC;
+    Olhar as estrelas;
+    Desenhar no Illustrator;
+    Ler;
+    Pesquisar algo por pura curiosidade;
+    Saber sobre os assuntos atuais envolvendo astronomia;
+    Assistir um filme que eu goste muito;
+    Ver vídeos no Youtube sobre: Speed Art, LoL, ETC;
+    Ouvir músicas de acordo com minha atividade atual;
+}
+
+.Tarefas diárias{
+    Tirar o lixo e levar lá em baixo (se a lixeira estiver meio suja lavar também sem preguiça!);
+    Arrumar minha cama;
+    Varrer a casa e passar pano;
+    Ajudar minha vó ou minha mãe na cozinha;
+    Sempre deixar meu celular carregadinho ^^;
+
+    .Higiene diária{
+        Tomar 1 ou 2 banhos;
+        Limpar meus ouvidos com cotonete;
+        Escovar meus dentes: quando acordo, depois do almoço e qnd for durmir;
+        Ir no banheiro para fazer minhas necessidades humanas;
+    }
+}
+
+.Tarefas semanais{
+    Lavar o banheiro;
+    Limpar os ventiladores;
+    Arrumar meu guarda-roupas;
+    Limpar meu ambiente onde fico;
+    Trocar de papeis de parede (Celular e PC)
+
+    .Higiene mensal{
+        Limpar minhas unhas e/ou pintar;
+        Massagem nos meus pézinhos;
+    }
+}
+
+.Tarefas mensais{
+    Limpar dentro do meu computador;
+}
+
+.Coisas que tenho que fazer{
+    Aprender a usar o Google Agenda;
+    Arrumar função para o: Agendador de Tarefas (Programa do Windows 10);
+    Organizar meus Horários de dispertador;  
+}
+
+
+

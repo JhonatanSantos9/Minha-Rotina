@@ -1,0 +1,114 @@
+
+
+
+
+.sabado{
+    color: #1ece64;
+    font-weight: 800;
+    border: 3px solid #FFB7C3;
+}
+
+.dia-main{
+    text-align: center;
+    font-size: 4.5em;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 700;
+    color: #FFB7C3;
+    text-decoration: underline;
+}
+
+.lista-de-cima{
+    max-width: 894px;
+    min-width: 894px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    border: 3px dashed #f8a556;
+    margin: 10px auto 0 auto;
+}
+
+.tarefas-diarias{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 600px;
+}
+
+.item-primeira-lista{
+    padding-right: 25px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #fab06b;
+}
+
+.primeira-lista-titulo{
+    align-self: center;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    color: #FFB7C3;
+    padding-left: 70px;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 560px;
+    width: 440px;
+    padding-left: 70px;
+    list-style-type: square;
+}
+
+.div-emcima-do-footer{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    min-width: 350px;
+    max-width: 1250px;
+    background-color: white;
+    margin: 0 auto 0 auto;
+    box-shadow: 0px 20px 10px rgba(0, 0, 0, 0.384);
+}
+
+.mlem{
+    width: 1000px;
+    height: 600px;
+    border: 6px dashed #FFB7C3;
+    align-self: center;
+    margin: 35px;
+}
+
+.footer-pagina-principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 4px dashed #FFB7C3;
+    width: 100%;
+    height: 150px;
+    background-color: #BCF4F5;
+    text-align: center;
+}
+
+.gatinho-footer-left{
+    width: 500px;
+    height: 80px;
+}
+
+.footer-pagina-principal > h1{
+    font-family: 'Dancing Script';
+    font-size: 4em;
+    color: white;
+}
+
+.gatinho-footer-right{
+    width: 500px;
+    height: 80px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
