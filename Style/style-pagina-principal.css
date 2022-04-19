@@ -399,7 +399,7 @@ ul > li{
 }
 
 .gatinho-footer-left{
-    max-width: 500px;
+    width: 500px;
     min-width: 130px;
     max-height: 80px;
     min-height: 30px;
@@ -412,7 +412,7 @@ ul > li{
 }
 
 .gatinho-footer-right{
-    max-width: 500px;
+    width: 500px;
     min-width: 130px;
     max-height: 80px;
     min-height: 30px;
