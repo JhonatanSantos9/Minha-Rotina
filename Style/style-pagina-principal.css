@@ -103,9 +103,9 @@ ul{
     flex-wrap: wrap;
     min-height: 305px;
     max-height: 500px;
-    min-width: 446px;
+    min-width: 440px;
     max-width: 990px;
-    padding-left: 35px;
+    list-style-position: inside;
     list-style-type: square;
 }
 
