@@ -23,7 +23,7 @@ header{
     align-items: center;
     flex-direction: column;
     width: 100%;
-    min-width: 490px;
+    min-width: 400px;
     min-height: 100px;
     max-height: 230px;
     background-color: #BCF4F5;
@@ -43,11 +43,12 @@ header > h1{
 .gatinho-no-pc{
     width: 90px;
     padding: 5px;
-    margin-left: 25px;
+    margin-left: 10px;
 }
 
 nav{
     width: 100%;
+    min-width: 400px;
     min-height: 80px;
     max-height: 200px;
     display: flex;
@@ -127,7 +128,7 @@ nav{
     flex-direction: column;
     margin: 25px auto 0 auto;
     height: 1500px;
-    min-width: 450px;
+    min-width: 400px;
     max-width: 1300px;
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.384);

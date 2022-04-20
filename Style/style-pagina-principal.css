@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     margin: 25px auto 0 auto;
-    min-width: 450px;
+    min-width: 400px;
     max-width: 1300px;
     height: 5000px;
     padding: 20px;
@@ -33,8 +33,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    min-width: 400px; 
-    max-width: 1200px;
+    min-width: 350px; 
     min-height: 300px;
     max-height: 900px;
     background-color: #0000000c;
@@ -46,7 +45,7 @@
 
 .gatinho-rainbow{
     max-width: 430px;
-    min-width: 390px;
+    min-width: 340px;
     max-height: 292px;
     min-height: 230px;
     border: 4px solid #FFB7C3;
@@ -54,7 +53,7 @@
 
 .gatinho-colher{
     max-width: 430px;
-    min-width: 390px;
+    min-width: 340px;
     max-height: 292px;
     min-height: 230px;
     border: 4px solid #FFB7C3;
@@ -62,7 +61,7 @@
 
 .imangy{ 
     max-width: 430px;
-    min-width: 390px;
+    min-width: 340px;
     max-height: 292px;
     min-height: 230px;
     border: 4px solid #FFB7C3;
@@ -402,7 +401,7 @@ ul > li{
     justify-content: space-between;
     border-top: 4px dashed #FFB7C3;
     max-width: 100%;
-    min-width: 490px;
+    min-width: 400px;
     height: 150px;
     background-color: #BCF4F5;
     text-align: center;
