@@ -224,7 +224,8 @@ ul > li{
     align-items: center;
     justify-content: space-between;
     min-width: 450px;
-    background-color: #8adb7173;
+    background-color: #8adb7171;
+    margin: 0 -20px;
 }
 
 .patinhas{
@@ -333,14 +334,14 @@ ul > li{
     max-width: 200px;
     min-width: 150px;
     padding: 7px 10px;
-    margin: 10px 10px 10px 10px;
+    margin: 10px;
 }
 
 .logo-spotify:hover{
     background-color: white;
     border-radius: 10px;
     width: 220px;
-    height: 64px;
+    height: 60px;
     padding: 10px;
 }
 
@@ -352,15 +353,18 @@ ul > li{
     margin: 10px;
 }
 .logo-youtube:hover{
+    height: 50px;
+    width: 200px;
     background-color: white;
     border-radius: 10px;
-    width: 220px;
-    height: 52px;
-    padding: 10px;
 }
 
 .logo-youtube:active{
-    background-color: rgba(35, 121, 219, 0.13);
+    background-color: rgba(255, 52, 52, 0.596);
+}
+
+.logo-spotify:active{
+    background-color: rgba(119, 255, 101, 0.774);
 }
 
 .div-emcima-do-footer{
