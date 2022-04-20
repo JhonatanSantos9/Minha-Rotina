@@ -71,10 +71,10 @@ ul{
 .div-emcima-do-footer{
     display: flex;
     flex-direction: column;
-    align-content: center;
-    min-width: 450px;
-    max-width: 1300px;
-    height: 600px;
+    min-width: 350px;
+    max-width: 1260px;
+    max-height: 600px;
+    min-height: 200px;
     background-color: white;
     margin: 0 auto;
     padding: 20px;
@@ -103,26 +103,26 @@ ul{
     justify-content: space-between;
     border-top: 4px dashed #FFB7C3;
     max-width: 100%;
-    min-width: 490px;
+    min-width: 400px;
     height: 150px;
     background-color: #BCF4F5;
     text-align: center;
 }
 
 .gatinho-footer-left{
-    min-width: 130px;
+    min-width: 98px;
     max-height: 80px;
     min-height: 30px;
 }
 
 .footer-pagina-principal > h1{
     font-family: 'Dancing Script';
-    font-size: 4em;
+    font-size: 3.5em;
     color: white;
 }
 
 .gatinho-footer-right{
-    min-width: 130px;
+    min-width: 98px;
     max-height: 80px;
     min-height: 30px;
     -moz-transform: scaleX(-1);
