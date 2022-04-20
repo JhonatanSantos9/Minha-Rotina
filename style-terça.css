@@ -72,19 +72,29 @@ ul{
     display: flex;
     flex-direction: column;
     align-content: center;
-    min-width: 350px;
-    max-width: 1250px;
+    min-width: 450px;
+    max-width: 1300px;
+    height: 600px;
     background-color: white;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
+    padding: 20px;
     box-shadow: 0px 20px 10px rgba(0, 0, 0, 0.384);
 }
 
-.mlem{
-    width: 1000px;
-    height: 600px;
-    border: 6px dashed #FFB7C3;
-    align-self: center;
-    margin: 35px;
+.div-mlam{
+    background-color: white;
+    margin: 0 -20px 20px -20px;
+    padding: 20px;
+    padding-bottom: 45%;
+    position: relative;
+}
+
+.div-mlam > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 .footer-pagina-principal{
@@ -92,15 +102,17 @@ ul{
     align-items: center;
     justify-content: space-between;
     border-top: 4px dashed #FFB7C3;
-    width: 100%;
+    max-width: 100%;
+    min-width: 490px;
     height: 150px;
     background-color: #BCF4F5;
     text-align: center;
 }
 
 .gatinho-footer-left{
-    width: 500px;
-    height: 80px;
+    min-width: 130px;
+    max-height: 80px;
+    min-height: 30px;
 }
 
 .footer-pagina-principal > h1{
@@ -110,15 +122,11 @@ ul{
 }
 
 .gatinho-footer-right{
-    width: 500px;
-    height: 80px;
+    min-width: 130px;
+    max-height: 80px;
+    min-height: 30px;
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
-
-
-
-
-
