@@ -8,6 +8,14 @@
 
 
 
+
+.espaco-lado-esquerdo-nav-pagina-principal{
+    width: 100px;
+    min-width: 80px;
+    height: 40px;
+    border-radius: 20px;
+}
+
 .main-pagina-principal{
     display: flex;
     flex-direction: column;

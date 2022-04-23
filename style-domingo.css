@@ -2,15 +2,44 @@
 
 
 
+.espaco-lado-esquerdo-nav{
+    background-color: rgba(255, 255, 255, 0.377);
+    width: 100px;
+    min-width: 80px;
+    height: 35px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.espaco-lado-esquerdo-nav > a{
+    color: rgba(255, 145, 0, 0.87);
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 14px;
+    margin-right: 0px;
+    font-family: 'Playfair Display';
+}
+
+.espaco-lado-esquerdo-nav:hover{
+    background-color: rgb(250, 250, 250);
+    transition-duration: 0.3s;
+}
+
+@media (max-width: 823px){
+    .espaco-lado-esquerdo-nav {
+        margin: 0px 15px;
+    }
+}
+
 .domingo{
-    color: #1ece64;
+    color: #8fceeb;
     font-weight: 800;
     border: 3px solid #FFB7C3;
 }
 
 .dia-main{
     text-align: center;
-    font-size: 4.5em;
+    font-size: 6em;
     font-family: 'Playfair Display';
     font-style: italic;
     font-weight: 700;
@@ -18,24 +47,31 @@
     text-decoration: underline;
 }
 
+@media (max-width:580px) {
+    .dia-main{
+        font-size: 4em;
+    }
+}
+
 .lista-de-cima{
     width: 99.6%;
-    max-height: 850px;
+    max-height: 500px;
     display: flex;
     flex-direction: row;
     border: 3px dashed #f8a556;
     margin: 10px auto 0 auto;
-    padding: 5px 0px 20px 0px;
+    padding: 5px 0px 0px 0px;
 }
 
 .tarefas-diarias{
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-height: 850px;
+    max-height: 500px;
 }
 
 .item-primeira-lista{
+    width: 50%;
     max-width: 500px;
     max-height: 128px;
     padding-right: 25px;
@@ -59,13 +95,30 @@ ul{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-height: 850px;
-    width: 98%;
+    max-height: 430px;
+    width: 98.7.8%;
     list-style-position: inside;
     padding-left: 15px;
-    padding-bottom: 10px;
+    margin-bottom: 5px;
     list-style-type: square;
-    word-break: break-all;
+}
+
+@media (max-width: 900px) {
+    ul{
+        max-height: 900px;
+    }
+
+    .lista-de-cima{
+        max-height: 900px;
+    }
+
+    .tarefas-diarias{
+        max-height: 900px;
+    }
+
+    .item-primeira-lista{
+        width: 98%;
+    }
 }
 
 .div-emcima-do-footer{
