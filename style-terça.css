@@ -53,6 +53,12 @@
     }
 }
 
+.obs{
+    color: rgba(204, 2, 2, 0.753);
+    font-weight: 900;
+    margin-top: 15px;
+}
+
 .lista-de-cima{
     width: 99.6%;
     max-height: 500px;
