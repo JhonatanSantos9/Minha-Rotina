@@ -16,7 +16,7 @@
     min-width: 350px;
     max-width: 1260px;
     height: 6000px;
-    padding: 20px;
+    padding: 30px;
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.384);
  }
@@ -83,12 +83,10 @@
 .lista-de-cima{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    max-width: 990px;
-    min-width: 354px;
+    width: 99%;
     min-height: 300px;
     max-height: 700px;
-    border: 3px dashed #f8a556;
+    border: 2px dashed #f8a556;
     margin: 40px auto ;
 }
 
@@ -110,7 +108,7 @@
 
 .tarefas-semanais{
     background-color: rgb(255, 242, 235);
-    width: 100%;
+    width: 99.8%;
     max-height: 100%;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
@@ -122,10 +120,9 @@ ul{
     flex-wrap: wrap;
     max-height: 100%;
     min-width: 330px;
-    max-width: 990px;
     list-style-position: inside;
     list-style-type: square;
-    padding: 0px 0px 5px 10px;
+    padding: 0px 0px 5px 8px;
 }
 
 @media (max-width:400) {
@@ -141,11 +138,11 @@ ul{
 
 .lembretes-e-avisos{
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    flex-direction: row;
     flex-wrap: wrap;
     background-color: rgb(255, 255, 255);
-    max-width: 1100px;
+    max-width: 900px;
     min-width: 350px;
     min-height: 400px;
     max-height: 850px;
@@ -154,7 +151,7 @@ ul{
 
 .div-avisos{
     background-color: #fab06b70;
-    min-width: 300px;
+    min-width: 430px;
     max-width: 440px;
     min-height: 400px;
     max-height: 450px;
@@ -170,6 +167,21 @@ ul{
     margin: 10px;
 }
 
+@media (max-width:500px) {
+    .lembretes-e-avisos{
+        max-width: 400px;
+    }
+
+    .div-avisos{
+        min-width: 360px;
+        width: 100%;
+    }
+
+    .div-lembretes{
+        min-width: 360px;
+        width: 100%;
+    }
+}
 
 .avisos{
     display: flex;
