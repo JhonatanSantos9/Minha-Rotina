@@ -57,7 +57,13 @@ nav{
     
 }
 
-.espaco-lado-esquerdo-nav{
+@media (max-width:400px) {
+    header{
+        min-width: 400px;
+    }
+}
+
+.espaco-lado-direito-nav{
     width: 150px;
     height: 50px;
     display: flex;

@@ -2,23 +2,35 @@
 
 
 
-.espaco-lado-esquerdo-nav-pagina-principal{
+.espaco-lado-direito-nav-pagina-principal{
     width: 100px;
     min-width: 80px;
     height: 40px;
     border-radius: 20px;
 }
 
+@media (max-width:400px){
+    .espaco-lado-direito-nav-pagina-principal{
+        display: none;
+    }
+}
+
 .main-pagina-principal{
     display: flex;
     flex-direction: column;
     margin: 25px auto 0 auto;
-    min-width: 350px;
+    min-width: 400px;
     max-width: 1260px;
     height: 6000px;
     padding: 30px;
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.384);
+ }
+
+ @media (max-width:400px) {
+     .main-pagina-principal{
+         min-width: 340px;
+     }
  }
 
 .pagina-principal-titulo{
@@ -169,17 +181,21 @@ ul{
 
 @media (max-width:500px) {
     .lembretes-e-avisos{
-        max-width: 400px;
+        width: 100%;
+        max-width:360px;
+        margin: 40px auto;
     }
 
     .div-avisos{
         min-width: 360px;
         width: 100%;
+        margin: 0px 0px 10px 0px;
     }
 
     .div-lembretes{
         min-width: 360px;
-        width: 100%;
+        width: 100%;        
+        margin: 10px 0px 0px 0px;
     }
 }
 
@@ -260,10 +276,18 @@ ul{
     margin: 0 -20px;
 }
 
+@media (max-width:400px){
+    .gifs{
+        max-width: 355px;
+    }
+    
+}
+
 .patinhas{
     width: 415px;
     height: 245px;
     align-self: flex-start;
+    display: none;
 }
 
 .arviri-rosa{
@@ -272,6 +296,16 @@ ul{
     height: 300px;
     align-self: flex-start;
     float: right;
+}
+
+@media (max-width:400px){
+    .patinhas{
+        max-width: 355px;
+    }
+
+    .arviri-rosa{
+        max-width: 355px;
+    }
 }
 
 .divmusicas2{
