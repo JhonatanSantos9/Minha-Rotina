@@ -27,9 +27,9 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.384);
  }
 
- @media (max-width:400px) {
+ @media (max-width:406px) {
      .main-pagina-principal{
-         min-width: 340px;
+        width: 100%;
      }
  }
 
@@ -273,10 +273,10 @@ ul{
     justify-content: space-between;
     min-width: 350px;
     background-color: #8adb7171;
-    margin: 0 -20px;
+    margin: 0 auto;
 }
 
-@media (max-width:400px){
+@media (max-width:406px){
     .gifs{
         max-width: 355px;
     }
@@ -298,7 +298,7 @@ ul{
     float: right;
 }
 
-@media (max-width:400px){
+@media (max-width:406px){
     .patinhas{
         max-width: 355px;
     }
