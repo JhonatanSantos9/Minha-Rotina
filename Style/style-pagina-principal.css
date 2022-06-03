@@ -442,14 +442,36 @@ ul{
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 500px;
+}
+
+.link-serie{
+    width: 100%;
+    height: 100%;
+}
+
+.capa-serie{
+    width: 100%;
+    height: 100%;
 }
 
 .serie{
     max-width: 200px;
-    height: 300px;
+    max-height: 300px;
     margin: 10px;
 }
+
+.serie:hover{
+    border: 3px solid brown;
+}
+
+@media (max-width: 405px){
+    .serie{
+        max-width: 180px;
+        max-height: 260px;
+        margin: 7px;
+}
+
+
 
 .div-emcima-do-footer{
     display: flex;
