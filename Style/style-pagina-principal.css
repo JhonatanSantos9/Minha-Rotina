@@ -475,7 +475,7 @@ ul{
 .div-emcima-do-footer{
     display: flex;
     flex-direction: column;
-    min-width: 350px;
+    min-width: 365px;
     max-width: 1220px;
     max-height: 600px;
     min-height: 200px;
@@ -507,7 +507,7 @@ ul{
     justify-content: space-between;
     border-top: 4px dashed #FFB7C3;
     max-width: 100%;
-    min-width: 400px;
+    min-width: 405px;
     height: 150px;
     background-color: #BCF4F5;
     text-align: center;
