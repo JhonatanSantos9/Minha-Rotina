@@ -58,13 +58,12 @@ nav{
     justify-content: space-between;
     align-items: center;
     border-top: 4px dashed #FFB7C3;
-    margin-top: 3px;
-    
+    margin-top: 3px;    
 }
 
-@media (max-width:400px) {
-    header{
-        min-width: 405px;
+@media (max-width:360px) {
+    nav{
+        min-width: 360px;
     }
 }
 

@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: column;
     margin: 25px auto 0 auto;
-    min-width: 405px;
+    min-width: 360px;
     max-width: 1260px;
     height: 6000px;
     background-color: white;
@@ -44,6 +44,12 @@
     margin-top: 15px;
 }
 
+@media (max-width: 360px){
+    .pagina-principal-titulo{
+        font-size: 3em;
+    }
+}
+
 .div-de-cima{
     display: flex;
     flex-direction: row;
@@ -61,13 +67,13 @@
 
 /* Media quere para ajeitar o width e a centralização em dispositivos móveis */
 
-@media (max-width: 405px){
+@media (max-width: 360px){
     .div-de-cima{
-        max-width: 360px;
+        max-width: 300px;
     }
 
     .lista-de-cima{
-        max-width: 360px;
+        max-width: 300px;
     }
 
     .divmusicas2{
@@ -110,10 +116,27 @@
     height: 100%;
 }
 
+@media (max-width: 360px){
+    .div-gatinho-rainbow{
+        width: 280px;
+        height: 280px;
+    }
+
+    .div-gatinho-colher{
+        width: 280px;
+        height: 280px;
+    }
+
+    .div-imangy{
+        width: 280px;
+        height: 280px;
+    }
+}
+
 .lista-de-cima{
     display: flex;
     flex-direction: column;
-    width: 99%;
+    width: 95%;
     min-height: 300px;
     max-height: 700px;
     border: 2px dashed #f8a556;
@@ -121,12 +144,18 @@
 }
 
 .item-primeira-lista{
-    max-width: 324px;
+    max-width: 400px;
     font-size: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 300;
     font-style: italic;
     color: #fab06b;
+}
+
+@media (max-width: 360){
+    .item-primeira-lista{
+        max-width: 280px;
+    }
 }
 
 .primeira-lista-titulo{
@@ -149,19 +178,17 @@ ul{
     flex-direction: column;
     flex-wrap: wrap;
     max-height: 100%;
-    min-width: 330px;
+    max-width: 100%;
+    min-width: 280px;
     list-style-position: inside;
     list-style-type: square;
-    padding: 0px 0px 5px 8px;
+    padding: 0px 0px 5px 15px;
 }
 
-@media (max-width:400) {
+@media (max-width:360) {
     ul{
-        width: 330px;
-    }
-
-    .lista-de-cima{
-        width: 354px;
+        min-width: 270px;
+        max-width: 290px;
     }
 }
 
@@ -197,21 +224,21 @@ ul{
     margin: 10px;
 }
 
-@media (max-width:500px) {
+@media (max-width:360px) {
     .lembretes-e-avisos{
-        width: 100%;
+        width: 95%;
         max-width:360px;
         margin: 40px auto;
     }
 
     .div-avisos{
-        min-width: 360px;
+        min-width: 340px;
         width: 100%;
         margin: 0px 0px 10px 0px;
     }
 
     .div-lembretes{
-        min-width: 360px;
+        min-width: 340px;
         width: 100%;        
         margin: 10px 0px 0px 0px;
     }
@@ -330,7 +357,7 @@ ul{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 100%;
+    width: 94%;
     max-height: 1300px;
     background-color: rgb(247, 217, 162);
     margin: 45px auto;
@@ -475,7 +502,7 @@ ul{
 .div-emcima-do-footer{
     display: flex;
     flex-direction: column;
-    min-width: 365px;
+    min-width: 300px;
     max-width: 1220px;
     max-height: 600px;
     min-height: 200px;
@@ -483,6 +510,13 @@ ul{
     margin: 0 auto;
     padding: 20px;
     box-shadow: 0px 20px 10px rgba(0, 0, 0, 0.384);
+}
+
+@media(max-width:360px){
+    .div-emcima-do-footer{
+        min-width: 320px;
+        max-width: 360px;
+    }
 }
 
 .div-mlam{
@@ -507,22 +541,28 @@ ul{
     justify-content: space-between;
     border-top: 4px dashed #FFB7C3;
     max-width: 100%;
-    min-width: 405px;
+    min-width: 360px;
     height: 150px;
     background-color: #BCF4F5;
     text-align: center;
-}
-
-.gatinho-footer-left{
-    min-width: 98px;
-    max-height: 80px;
-    min-height: 30px;
 }
 
 .footer-pagina-principal > h1{
     font-family: 'Dancing Script';
     font-size: 3.5em;
     color: white;
+}
+
+@media (max-width: 360px){
+    .footer-pagina-principal > h1{
+        font-size: 2.5em;
+    }
+}
+
+.gatinho-footer-left{
+    min-width: 98px;
+    max-height: 80px;
+    min-height: 30px;
 }
 
 .gatinho-footer-right{
