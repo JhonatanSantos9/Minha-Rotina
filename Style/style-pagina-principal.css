@@ -55,6 +55,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: center;
     max-width: 100%;
     min-width: 300px; 
     max-height: 100%;
@@ -65,7 +66,7 @@
     margin: 0 auto;
 }
 
-/* Media quere para ajeitar o width e a centralização em dispositivos móveis */
+/* Media query para ajeitar o width e a centralização em dispositivos móveis */
 
 @media (max-width: 360px){
     .div-de-cima{
@@ -313,43 +314,46 @@ ul{
 .gifs{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap-reverse;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
-    min-width: 350px;
-    background-color: #8adb7171;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    background-color: #ffdead;
     margin: 0 auto;
 }
 
-@media (max-width:406px){
-    .gifs{
-        max-width: 355px;
-    }
-    
-}
-
 .patinhas{
-    width: 415px;
-    height: 245px;
-    align-self: flex-start;
-    display: none;
+    width: 500px;
+    height: 300px;
+    margin-left: 100px;
 }
 
 .arviri-rosa{
     max-width: 500px;
     min-width: 350px;
     height: 300px;
-    align-self: flex-start;
-    float: right;
 }
 
-@media (max-width:406px){
+@media (max-width:1032px){
+    .gifs{
+        width: 100%;
+        justify-content: flex-end;
+    }
+    
     .patinhas{
-        max-width: 355px;
+        max-width: 500px;
+        height: 300px;
+        margin: 0 auto;
     }
 
     .arviri-rosa{
-        max-width: 355px;
+        max-width: 380px;
+    }
+}
+
+@media (max-width:726px){
+    .patinhas{
+        justify-content: center;
     }
 }
 
