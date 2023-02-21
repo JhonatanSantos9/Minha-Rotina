@@ -50,6 +50,12 @@
     }
 }
 
+#time{
+    text-align: center;
+    font-style: italic;
+    color: #ffb7c3cc;
+}
+
 .div-de-cima{
     display: flex;
     flex-direction: row;

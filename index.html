@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="./Style/style-padrao.css">
     <link rel="stylesheet" href="./Style/style-pagina-principal.css">
     <title>Página Principal</title>
+    
 </head>
 <body>
     <header>
-        <h1>Rotina do Jhonzinho</h1>
-        <nav>              
-            <img class="gatinho-no-pc" src="gatinho-no-pc-removebg.png" alt="gatinho no pc">    
+        <h2>Rotina do Jhonzinho</h2>
+        <nav>
+            <img class="gatinho-no-pc" src="gatinho-no-pc-removebg.png" alt="gatinho no pc">
             <div class="dias-da-semana">
                 <a href="Dias-da-semana-html/segunda-feira.html" class="segunda dias-uteis flex-grow1">Segunda</a>
                 <a href="Dias-da-semana-html/terça-feira.html" class="terça dias-uteis flex-grow1">Terça</a>
@@ -33,6 +34,13 @@
         <main class="main-pagina-principal">
 
                 <p class="pagina-principal-titulo">>PÁGINA PRINCIPAL<</p>
+                <h1 id="time">Horas</h1>
+                    <script>
+                        var time = new Date()
+                        var hora = window.document.getElementById('time')
+                        hora.innerText = `São ${time.getHours()}:${time.getMinutes()}:${time.getSeconds}`
+                
+                    </script>
                 <div class="div-de-cima">
                     <div class="div-imangy">
                         <img src="i'mangy.jfif" alt="imangy cat">
