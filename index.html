@@ -37,10 +37,12 @@
                 <h1 id="time">Horas</h1>
                     <script>
                         var time = new Date()
-                        var hora = window.document.getElementById('time')
-                        hora.innerText = `São ${time.getHours()}:${time.getMinutes()}:${time.getSeconds}`
+                        var hora = window.document.querySelector('h1#time')
+                        hora.innerText = `São ${time.getHours()}:${time.getMinutes()}`
                 
                     </script>
+
+
                 <div class="div-de-cima">
                     <div class="div-imangy">
                         <img src="i'mangy.jfif" alt="imangy cat">

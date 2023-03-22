@@ -37,7 +37,7 @@ header{
     }
 }
 
-header > h1{
+header > h2{
     font-family: 'Dancing Script';
     font-size: 3em;
     color: white;
