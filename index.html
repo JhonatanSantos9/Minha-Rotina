@@ -10,7 +10,7 @@
     <title>Página Principal</title>
     
 </head>
-<body>
+<body onload="time()">
     <header>
         <h2>Rotina do Jhonzinho</h2>
         <nav>
@@ -34,12 +34,33 @@
         <main class="main-pagina-principal">
 
                 <p class="pagina-principal-titulo">>PÁGINA PRINCIPAL<</p>
-                <h1 id="time">Horas</h1>
+                <div id="Horário">
+                    <h1 id="são">São</h1>
+                    <h1 id="time"></h1>
+                </div>
                     <script>
-                        var time = new Date()
-                        var hora = window.document.querySelector('h1#time')
-                        hora.innerText = `São ${time.getHours()}:${time.getMinutes()}`
-                
+                    
+                            function time(){
+                                var hora = window.document.querySelector('h1#time')
+                                var newdate = new Date()
+                                hora.innerHTML = (new Intl.DateTimeFormat('pt-BR', {
+                                    timeStyle:"medium",
+                                }).format(newdate))
+                                setTimeout('time()', 500);
+
+
+                            }
+
+                            /*
+                            function time(){
+                                var time = new Date()
+                                var hora = window.document.querySelector('h1#time')
+                                hora.innerText = `São ${time.getHours()}:${time.getMinutes()}:${time.getSeconds()}`
+                                setTimeout('time()',500);
+                            
+                            }
+                            */
+
                     </script>
 
 

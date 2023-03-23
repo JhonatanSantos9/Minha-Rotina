@@ -50,6 +50,18 @@
     }
 }
 
+#Horário{
+    display: flex;
+    margin: 0 auto;
+}
+
+#são{
+    text-align: center;
+    font-style: italic;
+    color: #ffb7c3cc;
+    margin-right: 7px;
+}
+
 #time{
     text-align: center;
     font-style: italic;
