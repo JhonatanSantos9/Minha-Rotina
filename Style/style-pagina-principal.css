@@ -257,7 +257,7 @@ ul{
 
 .div-avisos{
     background-color: #fab06b70;
-    min-width: 430px;
+    min-width: 360px;
     max-width: 440px;
     min-height: 400px;
     max-height: 450px;
@@ -576,8 +576,6 @@ ul{
 .div-emcima-do-footer{
     display: flex;
     flex-direction: column;
-    min-width: 410px;
-    max-width: 1220px;
     max-height: 600px;
     min-height: 200px;
     background-color: white;
@@ -586,16 +584,8 @@ ul{
     box-shadow: 0px 20px 10px rgba(0, 0, 0, 0.384);
 }
 
-@media(max-width:360px){
-    .div-emcima-do-footer{
-        min-width: 320px;
-        max-width: 360px;
-    }
-}
-
 .div-mlam{
     background-color: white;
-    margin: 0 -20px 20px -20px;
     padding: 20px;
     padding-bottom: 45%;
     position: relative;
@@ -621,12 +611,6 @@ ul{
     text-align: center;
 }
 
-@media (max-width:360px){
-    .footer-pagina-principal{
-
-    }
-}
-
 .footer-pagina-principal > h1{
     font-family: 'Dancing Script';
     font-size: 3.5em;
@@ -640,15 +624,15 @@ ul{
 }
 
 .gatinho-footer-left{
-    min-width: 98px;
+    min-width: 90px;
     max-height: 80px;
-    min-height: 30px;
+    min-height: 25px;
 }
 
 .gatinho-footer-right{
-    min-width: 98px;
+    min-width: 90px;
     max-height: 80px;
-    min-height: 30px;
+    min-height: 25px;
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
