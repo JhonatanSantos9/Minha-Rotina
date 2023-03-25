@@ -10,7 +10,7 @@
     <title>Página Principal</title>
     
 </head>
-<body onload="time()">
+<body onload="time(), periododia()">
     <header>
         <h2>Rotina do Jhonzinho</h2>
         <nav>
@@ -35,30 +35,34 @@
 
                 <p class="pagina-principal-titulo">>PÁGINA PRINCIPAL<</p>
                 <div id="Horário">
-                    <h1 id="são">São</h1>
-                    <h1 id="time"></h1>
+                    <p id="são">São</p>
+                    <p id="time"></p>
+                    <p id="dayPeriod"></p>
                 </div>
                     <script>
                     
-                            function time(){
-                                var hora = window.document.querySelector('h1#time')
-                                var newdate = new Date()
-                                hora.innerHTML = (new Intl.DateTimeFormat('pt-BR', {
-                                    timeStyle:"medium",
-                                }).format(newdate))
-                                setTimeout('time()', 500)
+                        function time(){
+                            var hora = window.document.querySelector('p#time')
+                            var newdate = new Date()
+                            hora.innerHTML = new Intl.DateTimeFormat('pt-BR', {
+                                timeStyle:"medium",
+                            }).format(newdate)
+                            setTimeout('time()', 500)
+                        }
+
+                        function periododia(){
+                            var periododia = window.document.querySelector('p#dayPeriod')
+                            var newdate = new Date()
+                            periododia.innerHTML = new Intl.DateTimeFormat('pt-BR', {
+                                dayPeriod:"long",
+                            }).format(newdate)
+                            setTimeout('periododia()', 500)
+                        }
 
 
-                            }
 
                             /*
-                            function time(){
-                                var time = new Date()
-                                var hora = window.document.querySelector('h1#time')
-                                hora.innerText = `São ${time.getHours()}:${time.getMinutes()}:${time.getSeconds()}`
-                                setTimeout('time()',500);
-                            
-                            }
+                           
                             */
 
                     </script>
