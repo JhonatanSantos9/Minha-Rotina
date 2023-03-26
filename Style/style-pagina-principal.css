@@ -123,6 +123,7 @@
 @media (max-width: 360px){
     .div-de-cima{
         max-width: 360px;
+        padding: 0px;
     }
 }
 
