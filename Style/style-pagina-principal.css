@@ -2,6 +2,14 @@
 
 
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: borderbox;
+}
+
+
+
 .espaco-lado-direito-nav-pagina-principal{
     width: 100px;
     min-width: 80px;
