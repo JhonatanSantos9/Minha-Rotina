@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="./Favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./Style/style-padrao.css">
     <link rel="stylesheet" href="./Style/style-pagina-principal.css">
+    <script src="JavaScript.js"></script>
     <title>Página Principal</title>
     
 </head>
@@ -39,34 +40,6 @@
                     <p id="time"></p>
                     <p id="dayPeriod"></p>
                 </div>
-                    <script>
-                    
-                        function time(){
-                            var hora = window.document.querySelector('p#time')
-                            var newdate = new Date()
-                            hora.innerHTML = new Intl.DateTimeFormat('pt-BR', {
-                                timeStyle:"medium",
-                            }).format(newdate)
-                            setTimeout('time()', 500)
-                        }
-
-                        function periododia(){
-                            var periododia = window.document.querySelector('p#dayPeriod')
-                            var newdate = new Date()
-                            periododia.innerHTML = new Intl.DateTimeFormat('pt-BR', {
-                                dayPeriod:"long",
-                            }).format(newdate)
-                            setTimeout('periododia()', 500)
-                        }
-
-
-
-                            /*
-                           
-                            */
-
-                    </script>
-
 
                 <div class="div-de-cima">
                     <div class="div-imangy">
@@ -167,21 +140,22 @@
                     </div>
                 </div>
 
-                <div class="midias-cinematograficas">
-    
-                <div class="redecanais">
+                <div class="midias-cinematograficas">    
                     <img class="redecanais-img" src="REDECANAISLOGO.png">
-                </div>
-                <div class="filmes-series">
+                    <div class="filmes-series">
 
-                    <div class="serie">
-                        <a class="link-serie" target="_blank" href="https://redecanais.to/gravity-falls-um-verao-de-misterios-dublado-lista-de-episodios_dcbcc7a02.html"><img class="capa-serie" src="gravityfalls.jpg"></a>
-                    </div>
-                    <div class="serie">
-                        <a class="link-serie" target="_blank" href="https://redecanais.to/as-visoes-da-raven-dublado-lista-de-episodios_aafd172f0.html"><img class="capa-serie" src="asvisoesdaravenposter.jpg"></a>
-                    </div>
+                        <div class="filmes-series-item">
+                            <a class="link-serie" target="_blank" href="https://redecanais.to/gravity-falls-um-verao-de-misterios-dublado-lista-de-episodios_dcbcc7a02.html">
+                            <img class="capa-serie" src="gravityfalls.jpg">
+                            </a>
+                        </div>
+                        <div class="filmes-series-item">
+                            <a class="link-serie" target="_blank" href="https://redecanais.to/as-visoes-da-raven-dublado-lista-de-episodios_aafd172f0.html">
+                            <img class="capa-serie" src="asvisoesdaravenposter.jpg">
+                            </a>
+                        </div>
 
-                </div>
+                    </div>
     
                 </div>
 
