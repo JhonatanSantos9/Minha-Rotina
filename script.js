@@ -3,7 +3,6 @@
 
 
 
-//hora no topo da página principal
 function time(){
     var hora = window.document.querySelector('p#time')
     var newdate = new Date()
@@ -23,22 +22,9 @@ function periododia(){
 }
 
 
-//Efeito de Hover nas séries
+var filmeseseries = document.getElementsByClassName('filmes-series-item')
+    filmeseseries.addEventListener('mouseenter', hoverfilmeseseries)
 
-var midia = document.querySelector('midias-cinematograficas')
-
-
-
-
-
-
-
-
-
-//var series = window.document.getElementsByClassName('filmes-series-item')
-
-/*series.addEventListener('mouseenter', hovermouseenter)
-
-function hovermouseenter(){
-    window.alert('FUNCIONOU KARALHOOOO!!!!!!!AAAAAAAA MUAHAHHHA')
-}*/
+function hoverfilmeseseries(){
+    filmeseseries.style.
+}
