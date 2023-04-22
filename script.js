@@ -20,7 +20,3 @@ function periododia(){
     }).format(newdate)
     setTimeout('periododia()', 500)
 }
-
-
-var filmeseseries = document.getElementsByClassName('filmes-series-item')
-    filmeseseries.addEventListener('mouseenter', hoverfilmeseseries)
