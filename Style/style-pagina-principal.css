@@ -110,9 +110,7 @@
     justify-content: space-evenly;
     align-items: center;
     max-width: 100%;
-    min-width: 340px; 
-    max-height: 100%;
-    min-height: 360px;
+    min-width: 340px;
     border: 3px solid #f8a556;
     border-radius: 30px;
     padding: 7px;
@@ -120,6 +118,11 @@
 }
 
 /* Media query para ajeitar o width e a centralização em dispositivos móveis */
+@media (max-width: 1000px){
+    .div-de-cima{
+        padding: 0px;
+    }
+}
 
 @media (max-width: 390px){
     .div-de-cima{
@@ -163,6 +166,24 @@
     height: 100%;
 }
 
+/*media quere para os gatinhos diminuirem */
+@media (max-width: 1000px){
+    .div-gatinho-rainbow{
+        min-width: 200px;
+        height: 180px;
+    }
+
+    .div-gatinho-colher{
+        min-width: 200px;
+        height: 180px;
+    }
+
+    .div-imangy{
+        min-width: 200px;
+        height: 180px;
+    }
+}
+
 @media (max-width: 390px){
     .div-gatinho-rainbow{
         min-width: 300px;
@@ -183,7 +204,8 @@
 .lista-de-cima{
     display: flex;
     flex-direction: column;
-    max-width: 95%;
+    max-width: 1100px;
+    min-height: 900px;
     min-height: 300px;
     max-height: 700px;
     border: 2px dashed #f8a556;
@@ -197,7 +219,7 @@
 }
 
 .item-primeira-lista{
-    max-width: 400px;
+    max-width: 60em;
     font-size: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 300;

@@ -30,16 +30,19 @@ header{
     background-color: #BCF4F5;
     border-bottom: 6px solid #FFB7C3;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.384);
+    position: sticky;
+    top: 0px;
+    z-index: 999;
 }
 
-header > h2{
+header > h1{
     font-family: 'Dancing Script';
     font-size: 3em;
     color: white;
 }
 
 @media (max-width: 360px){
-    header > h2{
+    header > h1{
         font-size: 2em;
     }
 }
