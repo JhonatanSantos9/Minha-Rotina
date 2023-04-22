@@ -24,7 +24,3 @@ function periododia(){
 
 var filmeseseries = document.getElementsByClassName('filmes-series-item')
     filmeseseries.addEventListener('mouseenter', hoverfilmeseseries)
-
-function hoverfilmeseseries(){
-    filmeseseries.style.
-}
